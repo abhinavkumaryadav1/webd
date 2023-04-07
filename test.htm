@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"5f1cef4252","applicationID":"15907957","transactionName":"JloMEUULDVhTQkpREBFcAQlSF05HXl8S","queueTime":0,"applicationTime":123,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={xpid:"VQQHU1RTDRABUVhSAAgCUQ==",licenseKey:"5f1cef4252",applicationID:"15907957"};;(()=>{var e,t,r={9071:(e,t,r)=>{"use strict";r.d(t,{I:()=>n});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},6562:(e,t,r)=>{"use strict";r.d(t,{P_:()=>g,Mt:()=>v,C5:()=>d,DL:()=>y,OP:()=>N,lF:()=>L,Yu:()=>E,Dg:()=>p,CX:()=>f,GE:()=>w,sU:()=>k});var n={};r.r(n),r.d(n,{agent:()=>T,match:()=>S,version:()=>A});var i=r(6797),o=r(909),a=r(8610);class s{constructor(e,t){try{if(!e||"object"!=typeof e)return(0,a.Z)("New setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,a.Z)("Setting a Configurable requires a model to set its initial properties");Object.assign(this,t),Object.entries(e).forEach((e=>{let[t,r]=e;const n=(0,o.q)(t);n.length&&r&&"object"==typeof r&&n.forEach((e=>{e in r&&((0,a.Z)('"'.concat(e,'" is a protected attribute and can not be changed in feature ').concat(t,".  It will have no effect.")),delete r[e])})),this[t]=r}))}catch(e){(0,a.Z)("An error occured while setting a Configurable",e)}}}const c={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},u={};function d(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!u[e])throw new Error("Info for ".concat(e," was never set"));return u[e]}function f(e,t){if(!e)throw new Error("All info objects require an agent identifier!");u[e]=new s(t,c),(0,i.Qy)(e,u[e],"info")}const l={allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},spa:{enabled:!0,harvestTimeSeconds:10}},h={};function g(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!h[e])throw new Error("Configuration for ".concat(e," was never set"));return h[e]}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");h[e]=new s(t,l),(0,i.Qy)(e,h[e],"config")}function v(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=g(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const m={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},b={};function y(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!b[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return b[e]}function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");b[e]=new s(t,m),(0,i.Qy)(e,b[e],"loader_config")}const E=(0,i.mF)().o;var T=null,A=null;if(navigator.userAgent){var x=navigator.userAgent,_=x.match(/Version\/(\S+)\s+Safari/);_&&-1===x.indexOf("Chrome")&&-1===x.indexOf("Chromium")&&(T="Safari",A=_[1])}function S(e,t){if(!T)return!1;if(e!==T)return!1;if(!t)return!0;if(!A)return!1;for(var r=A.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var O=r(5526),P=r(2374);const D="NRBA_SESSION_ID";function j(){if(!P.il)return null;try{let e;return null===(e=window.sessionStorage.getItem(D))&&(e=(0,O.ky)(16),window.sessionStorage.setItem(D,e)),e}catch(e){return null}}var C=r(8226);const I=e=>({customTransaction:void 0,disabled:!1,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(P._A?.performance?.timeOrigin||P._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+P._A.location,ptid:void 0,releaseIds:{},sessionId:1==v(e,"privacy.cookies_enabled")?j():null,xhrWrappable:"function"==typeof P._A.XMLHttpRequest?.prototype?.addEventListener,userAgent:n,version:C.q}),R={};function N(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!R[e])throw new Error("Runtime for ".concat(e," was never set"));return R[e]}function k(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");R[e]=new s(t,I(e)),(0,i.Qy)(e,R[e],"runtime")}function L(e){return function(e){try{const t=d(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},8226:(e,t,r)=>{"use strict";r.d(t,{q:()=>n});const n="1228.PROD"},9557:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(8610);const i={agentIdentifier:""};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},4329:(e,t,r)=>{"use strict";r.d(t,{L:()=>d,R:()=>c});var n=r(3752),i=r(7022),o=r(4045),a=r(2325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const r=Array.from(s[e]);function a(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)f(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((e=>{let[t]=e;a(t)})))}function f(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},3752:(e,t,r)=>{"use strict";r.d(t,{ee:()=>u});var n=r(6797),i=r(3916),o=r(7022),a=r(6562),s="nr@context";let c=(0,n.fP)();var u;function d(){}function f(){return new d}function l(){u.aborted=!0,u.backlog={}}c.ee?u=c.ee:(u=function e(t,r){var n={},c={},h={},g=!1;try{g=16===r.length&&(0,a.OP)(r).isolatedBacklog}catch(e){}var p={on:b,addEventListener:b,removeEventListener:y,emit:m,get:E,listeners:w,context:v,buffer:T,abort:l,aborted:!1,isBuffering:A,debugId:r,backlog:g?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return p;function v(e){return e&&e instanceof d?e:e?(0,i.X)(e,s,f):f()}function m(e,r,n,i,o){if(!1!==o&&(o=!0),!u.aborted||i){t&&o&&t.emit(e,r,n);for(var a=v(n),s=w(e),d=s.length,f=0;f<d;f++)s[f].apply(a,r);var l=x()[c[e]];return l&&l.push([p,e,r,a]),a}}function b(e,t){n[e]=w(e).concat(t)}function y(e,t){var r=n[e];if(r)for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)}function w(e){return n[e]||[]}function E(t){return h[t]=h[t]||e(p,t)}function T(e,t){var r=x();p.aborted||(0,o.D)(e,(function(e,n){t=t||"feature",c[n]=t,t in r||(r[t]=[])}))}function A(e){return!!x()[c[e]]}function x(){return p.backlog}}(void 0,"globalEE"),c.ee=u)},9252:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(3752).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4045:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(9252);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},8544:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(2374);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];window.addEventListener(e,t,a(r))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];document.addEventListener(e,t,a(r))}},5526:(e,t,r)=>{"use strict";r.d(t,{Ht:()=>a,M:()=>o,Rl:()=>i,ky:()=>s});var n=r(2374);function i(){var e=null,t=0,r=n._A?.crypto||n._A?.msCrypto;function i(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,a="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",s="",c=0;c<a.length;c++)s+="x"===(o=a[c])?i().toString(16):"y"===o?(o=3&i()|8).toString(16):o;return s}function o(){return s(16)}function a(){return s(32)}function s(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}},2053:(e,t,r)=>{"use strict";r.d(t,{B:()=>n,z:()=>i});const n=(new Date).getTime();function i(){return Math.round(performance.now())}},8283:(e,t,r)=>{"use strict";r.d(t,{B:()=>a,L:()=>s});var n=r(6562),i=r(2053),o={};function a(e,t,r){void 0===r&&(r=(0,i.z)()+(0,n.OP)(e).offset),o[e]=o[e]||{},o[e][t]=r}function s(e,t,r,n){const i=e.sharedContext.agentIdentifier;var a=o[i]?.[r],s=o[i]?.[n];void 0!==a&&void 0!==s&&e.store("measures",t,{value:s-a})}},2545:(e,t,r)=>{"use strict";r.d(t,{L:()=>c});var n=r(9071),i=r(8544),o=r(8305),a=r(2374),s=r(6998);if(a.v6){a._A.cleanupTasks=[];const e=a._A.close;a._A.close=()=>{for(let e of a._A.cleanupTasks)e();e()}}function c(e,t){if(a.il)if(t)(0,s.N)(e,!0),(0,i.bP)("pagehide",e);else{var r=(0,o.Z)(e);!n.I||navigator.sendBeacon?(0,i.bP)("pagehide",r):(0,i.bP)("beforeunload",r),(0,i.bP)("unload",r)}else a.v6&&a._A.cleanupTasks.push(e)}},6368:(e,t,r)=>{"use strict";r.d(t,{e:()=>o});var n=r(2374),i={};function o(e){if(e in i)return i[e];if(0===(e||"").indexOf("data:"))return{protocol:"data"};let t;var r=n._A?.location,o={};if(n.il)t=document.createElement("a"),t.href=e;else try{t=new URL(e,r.href)}catch(e){return o}o.port=t.port;var a=t.href.split("://");!o.port&&a[1]&&(o.port=a[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===a[0]?"443":"80"),o.hostname=t.hostname||r.hostname,o.pathname=t.pathname,o.protocol=a[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var s=!t.protocol||":"===t.protocol||t.protocol===r.protocol,c=t.hostname===r.hostname&&t.port===r.port;return o.sameOrigin=s&&(!t.hostname||c),"/"===o.pathname&&(i[e]=o),o}},8610:(e,t,r)=>{"use strict";function n(e,t){console&&console.warn&&"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},3916:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},2374:(e,t,r)=>{"use strict";r.d(t,{_A:()=>o,il:()=>n,lW:()=>a,v6:()=>i});const n=Boolean("undefined"!=typeof window&&window.document),i=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator);let o=(()=>{if(n)return window;if(i){if("undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope)return globalThis;if(self instanceof WorkerGlobalScope)return self}throw new Error('New Relic browser agent shutting down due to error: Unable to locate global scope. This is possibly due to code redefining browser global variables like "self" and "window".')})();function a(){return o}},7022:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},8305:(e,t,r)=>{"use strict";r.d(t,{Z:()=>o});var n=r(8683),i=r.n(n);function o(e){var t,r=!1;return function(){return r?t:(r=!0,t=e.apply(this,i()(arguments)))}}},2438:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(3752);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},2650:(e,t,r)=>{"use strict";r.d(t,{K:()=>a,b:()=>o});var n=r(8544);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},6797:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>u,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>d,mF:()=>s});var n=r(2053),i=r(2374);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,r){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[r]:t}},i}function u(e,t){a()[e]=t}function d(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},6998:(e,t,r)=>{"use strict";r.d(t,{N:()=>i,e:()=>o});var n=r(8544);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return void(0,n.iz)("visibilitychange",(function(){if(t){if("hidden"!=document.visibilityState)return;e()}e(document.visibilityState)}))}function o(){return"hidden"===document.visibilityState?-1:1/0}},6408:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(2374);function i(){return"function"==typeof n._A?.PerformanceObserver}},8675:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.ajax},8322:(e,t,r)=>{"use strict";r.d(t,{A:()=>i,t:()=>n});const n=r(2325).D.jserrors,i="nr@seenError"},6034:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(2325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},6486:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageAction},2484:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageViewEvent},6382:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(2325).D.pageViewTiming},2628:(e,t,r)=>{"use strict";r.r(t),r.d(t,{ADD_EVENT_LISTENER:()=>p,BST_RESOURCE:()=>a,BST_TIMER:()=>l,END:()=>u,FEATURE_NAME:()=>i,FN_END:()=>f,FN_START:()=>d,ORIG_EVENT:()=>g,PUSH_STATE:()=>h,RESOURCE:()=>s,RESOURCE_TIMING_BUFFER_FULL:()=>o,START:()=>c});var n=r(6562);const i=r(2325).D.sessionTrace,o="resourcetimingbufferfull",a="bstResource",s="resource",c="-start",u="-end",d="fn"+c,f="fn"+u,l="bstTimer",h="pushState",g=n.Yu.EV,p="addEventListener"},1509:(e,t,r)=>{"use strict";r.d(t,{W:()=>s});var n=r(6562),i=r(3752),o=r(2384),a=r(6797);class s{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,n.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=r,this.blocked=!1,this.checkConfiguration()}checkConfiguration(){if(!(0,n.lF)(this.agentIdentifier)){let e={...(0,a.gG)().info?.jsAttributes};try{e={...e,...(0,n.C5)(this.agentIdentifier)?.jsAttributes}}catch(e){}(0,o.j)(this.agentIdentifier,{...(0,a.gG)(),info:{...(0,a.gG)().info,jsAttributes:e}})}}}},2384:(e,t,r)=>{"use strict";r.d(t,{j:()=>w});var n=r(8683),i=r.n(n),o=r(2325),a=r(6562),s=r(9252),c=r(7022),u=r(3752),d=r(2053),f=r(4329),l=r(2650),h=r(2374),g=r(8610),p=r(6034);function v(e){["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&e.api[t](...n)}))}(t,...n)}}))}var m=r(6797);const b={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa]};const y={};function w(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=arguments.length>2?arguments[2]:void 0,w=arguments.length>3?arguments[3]:void 0,{init:E,info:T,loader_config:A,runtime:x={loaderType:n},exposed:_=!0}=t;const S=(0,m.gG)();let O={};return T||(E=S.init,T=S.info,A=S.loader_config,O=S),h.v6&&(T.jsAttributes={...T.jsAttributes,isWorker:!0}),(0,a.CX)(e,T),(0,a.Dg)(e,E||{}),(0,a.GE)(e,A||{}),(0,a.sU)(e,x),function(e,t,n){n||(0,f.R)(e,"api"),v(t);var m=u.ee.get(e),b=m.get("tracer"),y="api-",w=y+"ixn-";function E(){}(0,c.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=A(y,r,!0,"api")})),t.addPageAction=A(y,"addPageAction",!0,o.D.pageAction),t.setCurrentRouteName=A(y,"routeName",!0,o.D.spa),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,a.OP)(e).customTransaction=(r||"http://custom.transaction")+t,A(y,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){const n=(0,a.C5)(e);return(0,a.CX)(e,{...n,jsAttributes:{...n.jsAttributes,[t]:r}}),A(y,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new E).get()};var T=E.prototype={createTracer:function(e,t){var r={},n=this,i="function"==typeof t;return(0,s.p)(w+"tracer",[(0,d.z)(),e,r],n,o.D.spa,m),function(){if(b.emit((i?"":"no-")+"fn-start",[(0,d.z)(),n,i],r),i)try{return t.apply(this,arguments)}catch(e){throw b.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],r),e}finally{b.emit("fn-end",[(0,d.z)()],r)}}}};function A(e,t,r,n){return function(){return(0,s.p)(p.xS,["API/"+t+"/called"],void 0,o.D.metrics,m),(0,s.p)(e+t,[(0,d.z)()].concat(i()(arguments)),r?null:this,n,m),r?void 0:this}}function x(){r.e(439).then(r.bind(r,5692)).then((t=>{let{setAPI:r}=t;r(e),(0,f.L)(e,"api")})).catch((()=>(0,g.Z)("Downloading runtime APIs failed...")))}(0,c.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){T[t]=A(w,t,void 0,o.D.spa)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,s.p)(p.xS,["API/noticeError/called"],void 0,o.D.metrics,m),(0,s.p)("err",[e,(0,d.z)(),!1,t],void 0,o.D.jserrors,m)},h.v6?x():(0,l.b)((()=>x()),!0)}(e,O,w),(0,m.Qy)(e,S,"api"),(0,m.Qy)(e,_,"exposed"),(0,m.EZ)("activatedFeatures",y),(0,m.EZ)("setToken",(t=>function(e,t){var r=u.ee.get(t);e&&"object"==typeof e&&((0,c.D)(e,(function(e,t){if(!t)return(b[e]||[]).forEach((t=>{(0,s.p)("block-"+e,[],void 0,t,r)}));y[e]||((0,s.p)("feat-"+e,[],void 0,b[e],r),y[e]=!0)})),(0,f.L)(t,o.D.pageViewEvent))}(t,e))),O}},909:(e,t,r)=>{"use strict";r.d(t,{Z:()=>i,q:()=>o});var n=r(2325);function i(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}function o(e){return e===n.D.jserrors?[]:["auto"]}},2325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8}},8683:e=>{e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return i.d(t,{a:t}),t},i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",317:"jserrors-aggregate",348:"page_view_timing-aggregate",439:"async-api",729:"lazy-loader",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"1ef08094",147:"56d9a464",193:"ada8b15b",317:"64f61365",348:"ced8c919",439:"61caf4d9",729:"37550b27",786:"46b69e61",862:"e74e95d2",873:"7222cbb6",898:"e6085a9a"}[e]+"-1228.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var f=u[d];if(f.getAttribute("src")==r||f.getAttribute("data-webpack")==t+o){s=f;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r),e[r]=[n];var l=(t,n)=>{s.onerror=s.onload=null,clearTimeout(h);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},h=setTimeout(l.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=l.bind(null,s.onerror),s.onload=l.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={785:0,357:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=window.webpackChunkNRBA=window.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})();var o={};(()=>{"use strict";i.r(o);var e=i(2325),t=i(6562);const r=Object.values(e.D);function n(e){const n={};return r.forEach((r=>{n[r]=function(e,r){return!1!==(0,t.Mt)(r,"".concat(e,".enabled"))}(r,e)})),n}var a=i(2384),s=i(909),c=i(9252),u=i(2053),d=i(8283),f=i(4329),l=i(1509),h=i(2650),g=i(2374),p=i(8610);class v extends l.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.hasAggregator=!1,this.auto=n,this.abortHandler,n&&(0,f.R)(e,r)}importAggregator(){if(this.hasAggregator||!this.auto)return;this.hasAggregator=!0;const e=async()=>{try{const{lazyLoader:e}=await i.e(729).then(i.bind(i,8110)),{Aggregate:t}=await e(this.featureName,"aggregate");new t(this.agentIdentifier,this.aggregator)}catch(e){(0,p.Z)("Downloading ".concat(this.featureName," failed...")),this.abortHandler?.()}};g.v6?e():(0,h.b)((()=>e()),!0)}}var m,b,y,w=i(2484);class E extends v{constructor(e,r){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,r,w.t,n),(0,d.B)(e,"starttime",(0,t.OP)(e).offset),(0,d.B)(e,"firstbyte",u.B),(0,h.K)((()=>this.measureDomContentLoaded())),(0,h.b)((()=>this.measureWindowLoaded()),!0),this.importAggregator()}measureWindowLoaded(){var r=(0,u.z)();(0,d.B)(this.agentIdentifier,"onload",r+(0,t.OP)(this.agentIdentifier).offset),(0,c.p)("timing",["load",r],void 0,e.D.pageViewTiming,this.ee)}measureDomContentLoaded(){(0,d.B)(this.agentIdentifier,"domContent",(0,u.z)()+(0,t.OP)(this.agentIdentifier).offset)}}m=E,b="featureName",y=w.t,(b=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(b))in m?Object.defineProperty(m,b,{value:y,enumerable:!0,configurable:!0,writable:!0}):m[b]=y;var T=i(9557),A=i(7022);class x extends T.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,A.D)(e,(function(e,r){t[e]=_(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,A.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=_(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=S(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=_(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=O(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function _(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=S(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function S(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function O(e){return"object"!=typeof e?[]:(0,A.D)(e,P)}function P(e,t){return t}var D=i(6797),j=i(5526),C=i(2438);var I,R=i(6998),N=i(8544),k=i(6382),L=-1,H=function(e){addEventListener("pageshow",(function(t){t.persisted&&(L=t.timeStamp,e(t))}),!0)},z=function(){return window.performance&&performance.getEntriesByType&&performance.getEntriesByType("navigation")[0]},M=function(){var e=z();return e&&e.activationStart||0},B=function(e,t){var r=z(),n="navigate";return L>=0?n="back-forward-cache":r&&(n=document.prerendering||M()>0?"prerender":document.wasDiscarded?"restore":r.type.replace(/_/g,"-")),{name:e,value:void 0===t?-1:t,rating:"good",delta:0,entries:[],id:"v3-".concat(Date.now(),"-").concat(Math.floor(8999999999999*Math.random())+1e12),navigationType:n}},F=function(e,t,r){try{if(PerformanceObserver.supportedEntryTypes.includes(e)){var n=new PerformanceObserver((function(e){Promise.resolve().then((function(){t(e.getEntries())}))}));return n.observe(Object.assign({type:e,buffered:!0},r||{})),n}}catch(e){}},U=function(e,t,r,n){var i,o;return function(a){t.value>=0&&(a||n)&&((o=t.value-(i||0))||void 0===i)&&(i=t.value,t.delta=o,t.rating=function(e,t){return e>t[1]?"poor":e>t[0]?"needs-improvement":"good"}(t.value,r),e(t))}},V=function(e){var t=function(t){"pagehide"!==t.type&&"hidden"!==document.visibilityState||e(t)};addEventListener("visibilitychange",t,!0),addEventListener("pagehide",t,!0)},W=function(e){document.prerendering?addEventListener("prerenderingchange",(function(){return e()}),!0):e()},q=(new Date,0),G=1/0,X=0,Z=function(e){e.forEach((function(e){e.interactionId&&(G=Math.min(G,e.interactionId),X=Math.max(X,e.interactionId),q=X?(X-G)/7+1:0)}))},Q=function(){return I?q:performance.interactionCount||0},$=function(){"interactionCount"in performance||I||(I=F("event",Z,{type:"event",buffered:!0,durationThreshold:0}))},Y=[200,500],K=0,J=function(){return Q()-K},ee=[],te={},re=function(e){var t=ee[ee.length-1],r=te[e.interactionId];if(r||ee.length<10||e.duration>t.latency){if(r)r.entries.push(e),r.latency=Math.max(r.latency,e.duration);else{var n={id:e.interactionId,latency:e.duration,entries:[e]};te[n.id]=n,ee.push(n)}ee.sort((function(e,t){return t.latency-e.latency})),ee.splice(10).forEach((function(e){delete te[e.id]}))}},ne=i(2545);class ie extends v{constructor(r,n){var i;let o=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(r,n,k.t,o),i=this,g.il){if(this.pageHiddenTime=(0,R.e)(),this.performanceObserver,this.lcpPerformanceObserver,this.clsPerformanceObserver,this.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){this.performanceObserver=new PerformanceObserver((function(){return i.perfObserver(...arguments)}));try{this.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}this.lcpPerformanceObserver=new PerformanceObserver((function(){return i.lcpObserver(...arguments)}));try{this.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}this.clsPerformanceObserver=new PerformanceObserver((function(){return i.clsObserver(...arguments)}));try{this.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}this.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((e=>{(0,N.iz)(e,(function(){return i.captureInteraction(...arguments)}))})),function(e,t){t=t||{},W((function(){$();var r,n=B("INP"),i=function(e){e.forEach((function(e){e.interactionId&&re(e),"first-input"===e.entryType&&!ee.some((function(t){return t.entries.some((function(t){return e.duration===t.duration&&e.startTime===t.startTime}))}))&&re(e)}));var t,i=(t=Math.min(ee.length-1,Math.floor(J()/50)),ee[t]);i&&i.latency!==n.value&&(n.value=i.latency,n.entries=i.entries,r())},o=F("event",i,{durationThreshold:t.durationThreshold||40});r=U(e,n,Y,t.reportAllChanges),o&&(o.observe({type:"first-input",buffered:!0}),V((function(){i(o.takeRecords()),n.value<0&&J()>0&&(n.value=0,n.entries=[]),r(!0)})),H((function(){ee=[],K=Q(),n=B("INP"),r=U(e,n,Y,t.reportAllChanges)})))}))}((t=>{let{name:r,value:n,id:i}=t;(0,c.p)("timing",[r.toLowerCase(),n,{metricId:i}],void 0,e.D.pageViewTiming,this.ee)})),!0===(0,t.Mt)(this.agentIdentifier,"page_view_timing.long_task")&&(e=>{const t=t=>{t.forEach((t=>{const r={name:"LT",value:t.duration,info:{ltFrame:t.name,ltStart:t.startTime,ltCtr:t.attribution[0].containerType}};"window"!==r.info.ltCtr&&Object.assign(r.info,{ltCtrSrc:t.attribution[0].containerSrc,ltCtrId:t.attribution[0].containerId,ltCtrName:t.attribution[0].containerName}),e(r)}))};let r;try{PerformanceObserver.supportedEntryTypes.includes("longtask")&&(r=new PerformanceObserver((e=>{Promise.resolve().then((()=>{t(e.getEntries())}))})),r.observe({type:"longtask",buffered:!0}))}catch(e){}r&&(0,ne.L)((()=>{t(r.takeRecords())}),!0)})((t=>{let{name:r,value:n,info:i}=t;(0,c.p)("timing",[r.toLowerCase(),n,i],void 0,e.D.pageViewTiming,this.ee)})),(0,R.N)((()=>{this.pageHiddenTime=(0,u.z)(),(0,c.p)("docHidden",[this.pageHiddenTime],void 0,e.D.pageViewTiming,this.ee)}),!0),(0,N.bP)("pagehide",(()=>(0,c.p)("winPagehide",[(0,u.z)()],void 0,e.D.pageViewTiming,this.ee))),this.importAggregator()}}perfObserver(t,r){t.getEntries().forEach((t=>{"first-paint"===t.name?(0,c.p)("timing",["fp",Math.floor(t.startTime)],void 0,e.D.pageViewTiming,this.ee):"first-contentful-paint"===t.name&&(0,c.p)("timing",["fcp",Math.floor(t.startTime)],void 0,e.D.pageViewTiming,this.ee)}))}lcpObserver(t,r){var n=t.getEntries();if(n.length>0){var i=n[n.length-1];if(this.pageHiddenTime<i.startTime)return;var o=[i],a=this.addConnectionAttributes({});a&&o.push(a),(0,c.p)("lcp",o,void 0,e.D.pageViewTiming,this.ee)}}clsObserver(t){t.getEntries().forEach((t=>{t.hadRecentInput||(0,c.p)("cls",[t],void 0,e.D.pageViewTiming,this.ee)}))}addConnectionAttributes(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e}captureInteraction(r){if(r instanceof t.Yu.EV&&!this.fiRecorded){var n=Math.round(r.timeStamp),i={type:r.type};this.addConnectionAttributes(i);const o=(0,t.OP)(this.agentIdentifier).offset;n<=(0,u.z)()?i.fid=(0,u.z)()-n:n>o&&n<=Date.now()?(n-=o,i.fid=(0,u.z)()-n):n=(0,u.z)(),this.fiRecorded=!0,(0,c.p)("timing",["fi",n,i],void 0,e.D.pageViewTiming,this.ee)}}}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(ie,"featureName",k.t);const oe={dedicated:Boolean(g._A?.Worker),shared:Boolean(g._A?.SharedWorker),service:Boolean(g._A?.navigator?.serviceWorker)};let ae,se,ce;var ue=i(6034);class de extends v{constructor(t,r){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(t,r,ue.t9,n),function(e){if(!ae){if(oe.dedicated){ae=Worker;try{g._A.Worker=r(ae,"Dedicated")}catch(e){o(e,"Dedicated")}if(oe.shared){se=SharedWorker;try{g._A.SharedWorker=r(se,"Shared")}catch(e){o(e,"Shared")}}else n("Shared");if(oe.service){ce=navigator.serviceWorker.register;try{g._A.navigator.serviceWorker.register=(t=ce,function(){for(var e=arguments.length,r=new Array(e),n=0;n<e;n++)r[n]=arguments[n];return i("Service",r[1]?.type),t.apply(navigator.serviceWorker,r)})}catch(e){o(e,"Service")}}else n("Service");var t;return}n("All")}function r(e,t){return"undefined"==typeof Proxy?e:new Proxy(e,{construct:(e,r)=>(i(t,r[1]?.type),new e(...r))})}function n(t){g.v6||e("Workers/".concat(t,"/Unavailable"))}function i(t,r){e("Workers/".concat(t,"module"===r?"/Module":"/Classic"))}function o(t,r){e("Workers/".concat(r,"/SM/Unsupported")),(0,p.Z)("NR Agent: Unable to capture ".concat(r," workers."),t)}}((t=>(0,c.p)(ue.xS,[t],void 0,e.D.metrics,this.ee))),this.importAggregator()}}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(de,"featureName",ue.t9);var fe=i(3916),le=i(3752),he=i(8683),ge=i.n(he);const pe="nr@original";var ve=Object.prototype.hasOwnProperty,me=!1;function be(e,t){return e||(e=le.ee),r.inPlace=function(e,t,n,i,o){n||(n="");var a,s,c,u="-"===n.charAt(0);for(c=0;c<t.length;c++)Ee(a=e[s=t[c]])||(e[s]=r(a,u?s+n:n,i,s,o))},r.flag=pe,r;function r(t,r,i,o,a){return Ee(t)?t:(r||(r=""),nrWrapper[pe]=t,we(t,nrWrapper,e),nrWrapper);function nrWrapper(){var s,c,u,d;try{c=this,s=ge()(arguments),u="function"==typeof i?i(s,c):i||{}}catch(t){ye([t,"",[s,c,o],u],e)}n(r+"start",[s,c,o],u,a);try{return d=t.apply(c,s)}catch(e){throw n(r+"err",[s,c,e],u,a),e}finally{n(r+"end",[s,c,d],u,a)}}}function n(r,n,i,o){if(!me||t){var a=me;me=!0;try{e.emit(r,n,i,t,o)}catch(t){ye([t,r,n,i],e)}me=a}}}function ye(e,t){t||(t=le.ee);try{t.emit("internal-error",e)}catch(e){}}function we(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){ye([e],r)}for(var n in e)ve.call(e,n)&&(t[n]=e[n]);return t}function Ee(e){return!(e&&e instanceof Function&&e.apply&&!e[pe])}var Te="fetch-",Ae=Te+"body-",xe=["arrayBuffer","blob","json","text","formData"],_e=g._A.Request,Se=g._A.Response,Oe="prototype",Pe="nr@context";const De={};function je(e){const t=function(e){return(e||le.ee).get("fetch")}(e);if(!(_e&&Se&&g._A.fetch))return t;if(De[t.debugId]++)return t;function r(e,r,n){var i=e[r];"function"==typeof i&&(e[r]=function(){var e,r=ge()(arguments),o={};t.emit(n+"before-start",[r],o),o[Pe]&&o[Pe].dt&&(e=o[Pe].dt);var a=i.apply(this,r);return t.emit(n+"start",[r,e],a),a.then((function(e){return t.emit(n+"end",[null,e],a),e}),(function(e){throw t.emit(n+"end",[e],a),e}))},e[r][pe]=i)}return De[t.debugId]=1,xe.forEach((e=>{r(_e[Oe],e,Ae),r(Se[Oe],e,Ae)})),r(g._A,"fetch",Te),t.on(Te+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(Te+"done",[null,r],n)}else t.emit(Te+"done",[e],n)})),t}const Ce={},Ie="setTimeout",Re="setInterval",Ne="clearTimeout",ke="-start",Le="-",He=[Ie,"setImmediate",Re,Ne,"clearImmediate"];function ze(e){const t=function(e){return(e||le.ee).get("timer")}(e);if(Ce[t.debugId]++)return t;Ce[t.debugId]=1;var r=be(t);return r.inPlace(g._A,He.slice(0,2),Ie+Le),r.inPlace(g._A,He.slice(2,3),Re+Le),r.inPlace(g._A,He.slice(3),Ne+Le),t.on(Re+ke,(function(e,t,n){e[0]=r(e[0],"fn-",null,n)})),t.on(Ie+ke,(function(e,t,n){this.method=n,this.timerDuration=isNaN(e[1])?0:+e[1],e[0]=r(e[0],"fn-",this,n)})),t}const Me={},Be="requestAnimationFrame";function Fe(e){const t=function(e){return(e||le.ee).get("raf")}(e);if(!g.il||Me[t.debugId]++)return t;Me[t.debugId]=1;var r=be(t);return r.inPlace(window,[Be],"raf-"),t.on("raf-start",(function(e){e[0]=r(e[0],"fn-")})),t}const Ue={},Ve=["pushState","replaceState"];function We(e){const t=function(e){return(e||le.ee).get("history")}(e);return!g.il||Ue[t.debugId]++||(Ue[t.debugId]=1,be(t).inPlace(window.history,Ve,"-")),t}const qe={},Ge=XMLHttpRequest,Xe="addEventListener",Ze="removeEventListener";function Qe(e){var t=function(e){return(e||le.ee).get("events")}(e);if(qe[t.debugId]++)return t;qe[t.debugId]=1;var r=be(t,!0);function n(e){r.inPlace(e,[Xe,Ze],"-",i)}function i(e,t){return e[1]}return"getPrototypeOf"in Object&&(g.il&&$e(document,n),$e(g._A,n),$e(Ge.prototype,n)),t.on(Xe+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,fe.X)(n,"nr@wrapped",(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(Ze+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function $e(e,t){let r=e;for(;"object"==typeof r&&!Object.prototype.hasOwnProperty.call(r,Xe);)r=Object.getPrototypeOf(r);for(var n=arguments.length,i=new Array(n>2?n-2:0),o=2;o<n;o++)i[o-2]=arguments[o];r&&t(r,...i)}const Ye={},Ke=["open","send"];function Je(e){var r=e||le.ee;const n=function(e){return(e||le.ee).get("xhr")}(r);if(Ye[n.debugId]++)return n;Ye[n.debugId]=1,Qe(r);var i=be(n),o=t.Yu.XHR,a=t.Yu.MO,s=t.Yu.PR,c=t.Yu.SI,u="readystatechange",d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],f=[],l=g._A.XMLHttpRequest.listeners,h=g._A.XMLHttpRequest=function(e){var t=new o(e);function r(){try{n.emit("new-xhr",[t],t),t.addEventListener(u,m,(0,N.m$)(!1))}catch(e){(0,p.Z)("An error occured while intercepting XHR",e);try{n.emit("internal-error",[e])}catch(e){}}}return this.listeners=l?[...l,r]:[r],this.listeners.forEach((e=>e())),t};function v(e,t){i.inPlace(t,["onreadystatechange"],"fn-",T)}function m(){var e=this,t=n.context(e);e.readyState>3&&!t.resolved&&(t.resolved=!0,n.emit("xhr-resolved",[],e)),i.inPlace(e,d,"fn-",T)}if(function(e,t){for(var r in e)t[r]=e[r]}(o,h),h.prototype=o.prototype,i.inPlace(h.prototype,Ke,"-xhr-",T),n.on("send-xhr-start",(function(e,t){v(e,t),function(e){f.push(e),a&&(b?b.then(E):c?c(E):(y=-y,w.data=y))}(t)})),n.on("open-xhr-start",v),a){var b=s&&s.resolve();if(!c&&!s){var y=1,w=document.createTextNode(y);new a(E).observe(w,{characterData:!0})}}else r.on("fn-end",(function(e){e[0]&&e[0].type===u||E()}));function E(){for(var e=0;e<f.length;e++)v(0,f[e]);f.length&&(f=[])}function T(e,t){return t}return n}var et,tt={};try{et=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(tt.console=!0,-1!==et.indexOf("dev")&&(tt.dev=!0),-1!==et.indexOf("nr_dev")&&(tt.nrDev=!0))}catch(e){}function rt(e){try{tt.console&&rt(e)}catch(e){}}tt.nrDev&&le.ee.on("internal-error",(function(e){rt(e.stack)})),tt.dev&&le.ee.on("fn-err",(function(e,t,r){rt(r.stack)})),tt.dev&&(rt("NR AGENT IN DEVELOPMENT MODE"),rt("flags: "+(0,A.D)(tt,(function(e,t){return e})).join(", ")));var nt=i(8322);function it(e,t){!function(e,t){if(t.has(e))throw new TypeError("Cannot initialize the same private elements twice on an object")}(e,t),t.add(e)}var ot=new WeakSet;class at extends v{constructor(r,n){var i;let o=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(r,n,nt.t,o),i=this,it(this,ot),this.skipNext=0,this.origOnerror=g._A.onerror;try{this.removeOnAbort=new AbortController}catch(e){}const a=this;a.ee.on("fn-start",(function(e,t,r){a.abortHandler&&(a.skipNext+=1)})),a.ee.on("fn-err",(function(e,t,r){a.abortHandler&&!r[nt.A]&&((0,fe.X)(r,nt.A,(function(){return!0})),this.thrown=!0,ut(r,void 0,a.ee))})),a.ee.on("fn-end",(function(){a.abortHandler&&!this.thrown&&a.skipNext>0&&(a.skipNext-=1)})),a.ee.on("internal-error",(function(t){(0,c.p)("ierr",[t,(0,u.z)(),!0],void 0,e.D.jserrors,a.ee)})),g._A.onerror=function(){return i.origOnerror&&i.origOnerror(...arguments),i.onerrorHandler(...arguments),!1},g._A.addEventListener("unhandledrejection",(t=>{const r=function(e){let t="Unhandled Promise Rejection: ";if(e instanceof Error)try{return e.message=t+e.message,e}catch(t){return e}if(void 0===e)return new Error(t);try{return new Error(t+(0,C.P)(e))}catch(e){return new Error(t)}}(t.reason);(0,c.p)("err",[r,(0,u.z)(),!1,{unhandledPromiseRejection:1}],void 0,e.D.jserrors,this.ee)}),(0,N.m$)(!1,this.removeOnAbort?.signal)),Fe(this.ee),ze(this.ee),Qe(this.ee),(0,t.OP)(r).xhrWrappable&&Je(this.ee),this.abortHandler=function(e,t,r){if(!t.has(e))throw new TypeError("attempted to get private field on non-instance");return r}(this,ot,st),this.importAggregator()}onerrorHandler(t,r,n,i,o){try{this.skipNext?this.skipNext-=1:ut(o||new ct(t,r,n),!0,this.ee)}catch(t){try{(0,c.p)("ierr",[t,(0,u.z)(),!0],void 0,e.D.jserrors,this.ee)}catch(e){}}return"function"==typeof this.origOnerror&&this.origOnerror.apply(this,ge()(arguments))}}function st(){this.removeOnAbort?.abort(),this.abortHandler=void 0}function ct(e,t,r){this.message=e||"Uncaught error with no additional information",this.sourceURL=t,this.line=r}function ut(t,r,n){var i=r?null:(0,u.z)();(0,c.p)("err",[t,i],void 0,e.D.jserrors,n)}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(at,"featureName",nt.t);var dt=1,ft="nr@id";function lt(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===g._A?0:(0,fe.X)(e,ft,(function(){return dt++}))}var ht=i(9071);function gt(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,C.P)(e).length}catch(e){return}}}var pt=i(6368);class vt{constructor(e){this.agentIdentifier=e,this.generateTracePayload=this.generateTracePayload.bind(this),this.shouldGenerateTrace=this.shouldGenerateTrace.bind(this)}generateTracePayload(e){if(!this.shouldGenerateTrace(e))return null;var r=(0,t.DL)(this.agentIdentifier);if(!r)return null;var n=(r.accountID||"").toString()||null,i=(r.agentID||"").toString()||null,o=(r.trustKey||"").toString()||null;if(!n||!i)return null;var a=(0,j.M)(),s=(0,j.Ht)(),c=Date.now(),u={spanId:a,traceId:s,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(u.traceContextParentHeader=this.generateTraceContextParentHeader(a,s),u.traceContextStateHeader=this.generateTraceContextStateHeader(a,c,n,i,o)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(u.newrelicHeader=this.generateTraceHeader(a,s,c,n,i,o)),u}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,o){if(!("function"==typeof g._A?.btoa))return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return o&&n!==o&&(a.d.tk=o),btoa((0,C.P)(a))}shouldGenerateTrace(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var r=!1,n={};if((0,t.Mt)(this.agentIdentifier,"distributed_tracing")&&(n=(0,t.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)r=!0;else if(n.allowed_origins instanceof Array)for(var i=0;i<n.allowed_origins.length;i++){var o=(0,pt.e)(n.allowed_origins[i]);if(e.hostname===o.hostname&&e.protocol===o.protocol&&e.port===o.port){r=!0;break}}return r}isDtEnabled(){var e=(0,t.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled}excludeNewrelicHeader(){var e=(0,t.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=(0,t.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=(0,t.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers}}var mt=i(8675);var bt=["load","error","abort","timeout"],yt=bt.length,wt=t.Yu.REQ,Et=g._A.XMLHttpRequest;class Tt extends v{constructor(r,n){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(r,n,mt.t,i),(0,t.OP)(r).xhrWrappable&&(this.dt=new vt(r),this.handler=(e,t,r,n)=>(0,c.p)(e,t,r,n,this.ee),je(this.ee),Je(this.ee),function(r,n,i,o){function a(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=A,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){_(t,e)}),(0,N.m$)(!1)),ht.I||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,N.m$)(!1))}function s(e){this.params={method:e[0]},x(this,e[1]),this.metrics={}}function c(e,n){var i=(0,t.DL)(r);"xpid"in i&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",i.xpid);var a=o.generateTracePayload(this.parsedOrigin);if(a){var s=!1;a.newrelicHeader&&(n.setRequestHeader("newrelic",a.newrelicHeader),s=!0),a.traceContextParentHeader&&(n.setRequestHeader("traceparent",a.traceContextParentHeader),a.traceContextStateHeader&&n.setRequestHeader("tracestate",a.traceContextStateHeader),s=!0),s&&(this.dt=a)}}function d(e,t){var r=this.metrics,i=e[0],o=this;if(r&&i){var a=gt(i);a&&(r.txSize=a)}this.startTime=(0,u.z)(),this.listener=function(e){try{"abort"!==e.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==e.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof t.onload)&&"function"==typeof o.end)&&o.end(t)}catch(e){try{n.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<yt;s++)t.addEventListener(bt[s],this.listener,(0,N.m$)(!1))}function f(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function l(e,t){var r=""+lt(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function h(e,t){var r=""+lt(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function p(){this.endTime=(0,u.z)()}function v(e,t){t instanceof Et&&"load"===e[0]&&n.emit("xhr-load-added",[e[1],e[2]],t)}function m(e,t){t instanceof Et&&"load"===e[0]&&n.emit("xhr-load-removed",[e[1],e[2]],t)}function b(e,t,r){t instanceof Et&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,u.z)()))}function y(e,t){this.xhrCbStart&&n.emit("xhr-cb-time",[(0,u.z)()-this.xhrCbStart,this.onload,t],t)}function w(e){var t,r=e[1]||{};"string"==typeof e[0]?t=e[0]:e[0]&&e[0].url?t=e[0].url:g._A?.URL&&e[0]&&e[0]instanceof URL&&(t=e[0].href),t&&(this.parsedOrigin=(0,pt.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=o.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if("string"==typeof e[0]||g._A?.URL&&e[0]&&e[0]instanceof URL){var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),s(i.headers,n)&&(this.dt=n),e.length>1?e[1]=i:e.push(i)}else e[0]&&e[0].headers&&s(e[0].headers,n)&&(this.dt=n);function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function E(e,t){this.params={},this.metrics={},this.startTime=(0,u.z)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof wt?r=i.url:g._A?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),x(this,r);var o=(""+(i&&i instanceof wt&&i.method||n.method||"GET")).toUpperCase();this.params.method=o,this.txSize=gt(n.body)||0}function T(t,r){var n;this.endTime=(0,u.z)(),this.params||(this.params={}),this.params.status=r?r.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var o={txSize:this.txSize,rxSize:n,duration:(0,u.z)()-this.startTime};i("xhr",[this.params,o,this.startTime,this.endTime,"fetch"],this,e.D.ajax)}function A(t){var r=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;o<yt;o++)t.removeEventListener(bt[o],this.listener,!1);r.aborted||(n.duration=(0,u.z)()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==r.status&&(r.status=0):_(this,t),n.cbTime=this.cbTime,i("xhr",[r,n,this.startTime,this.endTime,"xhr"],this,e.D.ajax))}}function x(e,t){var r=(0,pt.e)(t),n=e.params;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}function _(e,t){e.params.status=t.status;var r=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?gt(e.response):"text"===r||""===r||void 0===r?gt(e.responseText):void 0}(t,e.lastSize);if(r&&(e.metrics.rxSize=r),e.sameOrigin){var n=t.getResponseHeader("X-NewRelic-App-Data");n&&(e.params.cat=n.split(", ").pop())}e.loadCaptureCalled=!0}n.on("new-xhr",a),n.on("open-xhr-start",s),n.on("open-xhr-end",c),n.on("send-xhr-start",d),n.on("xhr-cb-time",f),n.on("xhr-load-added",l),n.on("xhr-load-removed",h),n.on("xhr-resolved",p),n.on("addEventListener-end",v),n.on("removeEventListener-end",m),n.on("fn-end",y),n.on("fetch-before-start",w),n.on("fetch-start",E),n.on("fn-start",b),n.on("fetch-done",T)}(r,this.ee,this.handler,this.dt),this.importAggregator())}}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(Tt,"featureName",mt.t);var At=i(6408),xt=i(2628);function _t(e,t){!function(e,t){if(t.has(e))throw new TypeError("Cannot initialize the same private elements twice on an object")}(e,t),t.add(e)}const{BST_RESOURCE:St,BST_TIMER:Ot,END:Pt,FEATURE_NAME:Dt,FN_END:jt,FN_START:Ct,ADD_EVENT_LISTENER:It,PUSH_STATE:Rt,RESOURCE:Nt,RESOURCE_TIMING_BUFFER_FULL:kt,START:Lt,ORIG_EVENT:Ht}=xt,zt="clearResourceTimings";var Mt=new WeakSet;class Bt extends v{constructor(t,r){if(super(t,r,Dt,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),_t(this,Mt),!g.il)return;const n=this.ee;this.timerEE=ze(n),this.rafEE=Fe(n),We(n),Qe(n),n.on(Ct,(function(e,t){e[0]instanceof Ht&&(this.bstStart=(0,u.z)())})),n.on(jt,(function(t,r){var i=t[0];i instanceof Ht&&(0,c.p)("bst",[i,r,this.bstStart,(0,u.z)()],void 0,e.D.sessionTrace,n)})),this.timerEE.on(Ct,(function(e,t,r){this.bstStart=(0,u.z)(),this.bstType=r})),this.timerEE.on(jt,(function(t,r){(0,c.p)(Ot,[r,this.bstStart,(0,u.z)(),this.bstType],void 0,e.D.sessionTrace,n)})),this.rafEE.on(Ct,(function(){this.bstStart=(0,u.z)()})),this.rafEE.on(jt,(function(t,r){(0,c.p)(Ot,[r,this.bstStart,(0,u.z)(),"requestAnimationFrame"],void 0,e.D.sessionTrace,n)})),n.on(Rt+Lt,(function(e){this.time=(0,u.z)(),this.startPath=location.pathname+location.hash})),n.on(Rt+Pt,(function(t){(0,c.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,e.D.sessionTrace,n)})),(0,At.W)()?((0,c.p)(St,[window.performance.getEntriesByType("resource")],void 0,e.D.sessionTrace,n),function(){var t=new PerformanceObserver(((t,r)=>{var i=t.getEntries();(0,c.p)(St,[i],void 0,e.D.sessionTrace,n)}));try{t.observe({entryTypes:["resource"]})}catch(e){}}()):window.performance[zt]&&window.performance[It]&&window.performance.addEventListener(kt,this.onResourceTimingBufferFull,(0,N.m$)(!1)),document.addEventListener("scroll",this.noOp,(0,N.m$)(!1)),document.addEventListener("keypress",this.noOp,(0,N.m$)(!1)),document.addEventListener("click",this.noOp,(0,N.m$)(!1)),this.abortHandler=function(e,t,r){if(!t.has(e))throw new TypeError("attempted to get private field on non-instance");return r}(this,Mt,Ft),this.importAggregator()}noOp(e){}onResourceTimingBufferFull(t){if((0,c.p)(St,[window.performance.getEntriesByType(Nt)],void 0,e.D.sessionTrace,this.ee),window.performance[zt])try{window.performance.removeEventListener(kt,this.onResourceTimingBufferFull,!1)}catch(e){}}}function Ft(){window.performance.removeEventListener(kt,this.onResourceTimingBufferFull,!1),this.abortHandler=void 0}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(Bt,"featureName",Dt);var Ut=i(6486);class Vt extends v{constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,Ut.t,r),this.importAggregator()}}!function(e,t,r){(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var r=e[Symbol.toPrimitive];if(void 0!==r){var n=r.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r}(Vt,"featureName",Ut.t),new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,j.ky)(16);this.agentIdentifier=t,this.sharedAggregator=new x({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(E),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const r=n(this.agentIdentifier),i=Array.from(this.desiredFeatures);i.sort(((t,r)=>e.p[t.featureName]-e.p[r.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===e.D.pageViewEvent){const e=(0,s.Z)(t.featureName),n=e.every((e=>r[e]));n||(0,p.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,C.P)(e),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,D.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,p.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,D.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}}({features:[E,ie,Bt,Tt,de,Vt,at],loaderType:"pro"})})(),window.NRBA=o})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Social Media Meta tags-->
+    <meta content="website" property="og:type">
+    <meta content="How Psychometric tests are helpful in determining a candidate’s role and performance on GeniusU" itemprop="name" name="twitter:title" property="og:title">
+    <meta content="&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;What are psychometric tests?&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Every company goes through a lengthy process to hire their employees. Recruitment process consists of various rounds of interviews, group discussions, tests, and other methods of assessing employee&amp;rsquo;s overall skills and abilities.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;One of the methods of testing is &lt;a href=&quot;https://mettl.com/en/psychometric-tests/&quot;&gt;&lt;strong&gt;psychometric test&lt;/strong&gt;&lt;/a&gt; which is a test measuring your mental ability. It is scientific and standardized way of assessing various aspects of your behavior, mental capacity, and your personality style. These tests come in various forms which can be used to measure a potential employee&amp;rsquo;s abilities and see whether his/her skills and style match that of the organization. These tests, along with other methods such as interviews help the employers to make a wise decision.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&amp;nbsp;The tests are very structured and evaluate many aspects of the candidate&amp;rsquo;s skills such as intelligence, personality, ability to cope with stress, cognitive aspects, etc. It can be taken online or can be taken in person.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Psychometric tests are an old concept existing since the early 20&lt;sup&gt;th&lt;/sup&gt; century but they were restricted to the educational forum. Alfred Binet introduced the first intelligence test in 1905 and ever since, many tests have been introduced, modified and used in various fields and domains. Psychometric tests have become an absolute necessity in the selection process as employers are not just looking at educational qualifications but would like to assess a candidate&amp;rsquo;s other acquired skills.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Why is it used so profusely?&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Psychometric tests are used because:&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are very efficient tools in the recruitment process&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are standardized tools.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are unbiased and objective.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are impersonal.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They can cut down the HR costs.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are also good indicators to future job performance.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They can help compare candidate&amp;rsquo;s values and roles to that of the company.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are non-discriminatory.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;They can be administered before the interview or as an add-on to the interview process. These kinds of tests don&amp;rsquo;t analyze your psychological stability or emotional intelligence; hence they are very different from clinical tests. &amp;nbsp;But over the years, some aspects of emotional stability has been introduced to understand coping styles of candidates when it comes to stress, pressure, anger management, etc. A psychometric test should be used only after checking its validity and reliability. It is used almost in every sector ranging from IT, armed force, police forces, and other sectors.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Psychometric tests fall under two broad categories:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Aptitude tests- These tests measure various skill sets which match the role of the candidate for that particular organization. These include verbal reasoning, logical reasoning, Numerical reasoning, etc. These tests may be multiple choices based, formal and impersonal.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Personality tests- Personality is an important construct to determine the role of the candidate in an organization in terms of motivation level, enthusiasm, values, and success at workplace.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Psychometric tests are very reliable in determining candidate&amp;rsquo;s role in the organization and to see if he/she is a suitable fit. It is important to administer these tests in the early stages in order to avoid future conflicts and performance level of the employee.&lt;/p&gt;" itemprop="description" name="twitter::description" property="og:description">
+    <meta content="geniusu.com" name="twitter:domain">
+      <meta content="" property="og:description"/>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://app.geniusu.com/articles/3874029">
+  <meta name="twitter:title" content="How Psychometric tests are helpful in determining a candidate’s role and performance on GeniusU">
+  <meta name="twitter:description" content="&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;What are psychometric tests?&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Every company goes through a lengthy process to hire their employees. Recruitment process consists of various rounds of interviews, group discussions, tests, and other methods of assessing employee&amp;rsquo;s overall skills and abilities.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;One of the methods of testing is &lt;a href=&quot;https://mettl.com/en/psychometric-tests/&quot;&gt;&lt;strong&gt;psychometric test&lt;/strong&gt;&lt;/a&gt; which is a test measuring your mental ability. It is scientific and standardized way of assessing various aspects of your behavior, mental capacity, and your personality style. These tests come in various forms which can be used to measure a potential employee&amp;rsquo;s abilities and see whether his/her skills and style match that of the organization. These tests, along with other methods such as interviews help the employers to make a wise decision.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&amp;nbsp;The tests are very structured and evaluate many aspects of the candidate&amp;rsquo;s skills such as intelligence, personality, ability to cope with stress, cognitive aspects, etc. It can be taken online or can be taken in person.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Psychometric tests are an old concept existing since the early 20&lt;sup&gt;th&lt;/sup&gt; century but they were restricted to the educational forum. Alfred Binet introduced the first intelligence test in 1905 and ever since, many tests have been introduced, modified and used in various fields and domains. Psychometric tests have become an absolute necessity in the selection process as employers are not just looking at educational qualifications but would like to assess a candidate&amp;rsquo;s other acquired skills.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Why is it used so profusely?&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Psychometric tests are used because:&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are very efficient tools in the recruitment process&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are standardized tools.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are unbiased and objective.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are impersonal.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They can cut down the HR costs.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are also good indicators to future job performance.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They can help compare candidate&amp;rsquo;s values and roles to that of the company.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;They are non-discriminatory.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;They can be administered before the interview or as an add-on to the interview process. These kinds of tests don&amp;rsquo;t analyze your psychological stability or emotional intelligence; hence they are very different from clinical tests. &amp;nbsp;But over the years, some aspects of emotional stability has been introduced to understand coping styles of candidates when it comes to stress, pressure, anger management, etc. A psychometric test should be used only after checking its validity and reliability. It is used almost in every sector ranging from IT, armed force, police forces, and other sectors.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Psychometric tests fall under two broad categories:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Aptitude tests- These tests measure various skill sets which match the role of the candidate for that particular organization. These include verbal reasoning, logical reasoning, Numerical reasoning, etc. These tests may be multiple choices based, formal and impersonal.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Personality tests- Personality is an important construct to determine the role of the candidate in an organization in terms of motivation level, enthusiasm, values, and success at workplace.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Psychometric tests are very reliable in determining candidate&amp;rsquo;s role in the organization and to see if he/she is a suitable fit. It is important to administer these tests in the early stages in order to avoid future conflicts and performance level of the employee.&lt;/p&gt;">
+  <meta name="twitter:image" content="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3874029/How_Psychometric_tests_are_helpful_in_determining_a_candidate_s_role_and_performance.jpg">
+
+    <meta content="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3874029/How_Psychometric_tests_are_helpful_in_determining_a_candidate_s_role_and_performance.jpg" property="og:image">
+    <meta content="https://app.geniusu.com/articles/3874029" property="og:url">
+    <meta content="200028500157213" property="fb:app_id">
+    <meta content="GeniusU" property="og:site_name">
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="JkRYEYqv8jbhHMtYW/8/8SaO0V+qOHLtbCkXiYkIeXhqk8cXHrZK+EVP3PZsjPRcVZp2VyG/ftky84873C9n7g==" />
+    <title>GeniusU</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdb283a544.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://d27hl5wikuj24b.cloudfront.net/assets/2019/influex/application-09da199e8b3a3623dfa72e7c052d2b05e8018c9e3d1912a8cc686f2bb500db0c.js"></script>
+    <script src="https://geniusu-influex-staging.s3-eu-west-1.amazonaws.com/js/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://geniusu-influex-staging.s3-eu-west-1.amazonaws.com/js/jquery.film_roll.min.js"></script>
+    <script src="https://geniusu-influex-staging.s3-eu-west-1.amazonaws.com/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://geniusu-influex-staging.s3-eu-west-1.amazonaws.com/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://geniusu-influex-staging.s3-eu-west-1.amazonaws.com/css/owl.theme.default.min.css">
+    <script src="https://geniusu-influex-staging.s3-eu-west-1.amazonaws.com/js/owl.carousel.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="https://geniusu-influex-staging.s3-eu-west-1.amazonaws.com/css/odometer-theme-default.css" />
+    <link rel="stylesheet" href="https://geniusu-influex-staging.s3-eu-west-1.amazonaws.com/css/bootstrap.min.css" />
+    <link rel="stylesheet" media="screen" href="https://d27hl5wikuj24b.cloudfront.net/assets/influex/style-9e2c6b9dabc0ff554b117ea65e42cd8fde823bf91d7feb26e4f813172857e6d0.css" />
+    <link rel="stylesheet" href="https://stylekit.geniusu.com//stylesheets/application.css" />
+    <link rel="stylesheet" href="https://stylekit.geniusu.com//stylesheets/index.css" />
+    <link rel="stylesheet" media="screen" href="https://d27hl5wikuj24b.cloudfront.net/assets/influex/responsive-9e100e8579ffdb20842d740808152cf56d173da1bfbc2c05dc0933ae17d5d364.css" />
+    <link rel="stylesheet" media="screen" href="https://d27hl5wikuj24b.cloudfront.net/assets/influex/custom-25ae381cb092070487a5638720bb8ffc0c00e6909708e2ee00e5ee93f36a6651.css" />
+      <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T3LNXD');</script>
+<!-- End Google Tag Manager -->
+
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyAreEkq1jgB_vaKjV3f2k37JF6CIveaT4E&amp;language=en&amp;libraries=geometry,places"></script>
+  </head>
+
+  <body class='articles_show transparent_navigation transparent_navigation--on'>
+    <div class='modal fade in auth-modal' id='sign_in_modal'>
+<div class='modal-content sign_in_m'>
+<img class="modal-flower modal-flower-top" onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/mobile-top-5785d9fc50492ee05a636a4fb8e0b8c51dac1a841e852a5f7969aaf8d9ed7447.png" alt="Mobile top" />
+<img class="modal-flower modal-flower-bottom" onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/mobile-bottom-111505897f8bce32ccd0afd275ea3402dbbbd3b536da633ca53ccdd36948abb5.png" alt="Mobile bottom" />
+<div class='close' data-dismiss='modal'>
+&times;
+</div>
+<div class='modal-container'>
+<h1 class='section-title modal-title'>
+Welcome to GeniusU!
+</h1>
+<p class='section-desk modal-text'>
+You are now one step away from accessing your training. See you inside the world’s #1 entrepreneur platform.
+</p>
+<div class='modal-content-block'>
+<div class='modal-right-side'>
+<h2 class='modal-link-title'>
+Log in with a social account:
+</h2>
+<div class='modal-links-cover'>
+<a class='modal-links facebook' href='/accounts/auth/facebook'>
+<div class='modal-link-image-cover'>
+<img onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/facebook-4931a238a19b99a45a24751088088b386151e52d25be89ccc7d1d4d95f606123.png" alt="Facebook" />
+</div>
+<div class='modal-desktop-links'>
+Facebook
+</div>
+</a>
+<a class='modal-links twitter' href='/accounts/auth/twitter'>
+<div class='modal-link-image-cover'>
+<img onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/twitter-fcdd03c45119f11e3695c55befca4ed613ae84a2ba95c1c2dcdd873e9befbbbc.png" alt="Twitter" />
+</div>
+<div class='modal-desktop-links'>
+Twitter
+</div>
+</a>
+<a class='modal-links google' href='/accounts/auth/google_oauth2'>
+<div class='modal-link-image-cover'>
+<img onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/google-441be5de9b69115cbac2dd78560e60f336ef92eb9d37f2d77f6218d40b1b14b9.png" alt="Google" />
+</div>
+<div class='modal-desktop-links'>
+Google
+</div>
+</a>
+<a class='modal-links linkedin' href='/accounts/auth/linkedin'>
+<div class='modal-link-image-cover'>
+<img onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/linkedin-40890fa2d03ad70692daad1d07be3576ea6bcbed8b1c9d29f9f609d1759762d4.png" alt="Linkedin" />
+</div>
+<div class='modal-desktop-links'>
+LinkedIn
+</div>
+</a>
+</div>
+</div>
+<div class='modal-breadcrumb-space'>
+or
+</div>
+<div class='modal-left-side'>
+<form id="sign-in-form" class="modal-form" data-type="json" data-after-sign-in-path="/clear" action="/accounts/sign_in" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="EYp3CAgKxjVo4aKHn5M2mnSOKIn7tWjpR2gG9N3NO+RdXegOnBN++8yytSmo4P03B5qPgXAyZN0Zsp5GiOolcg==" /><h3 class='modal-form-title'>
+Login with an email:
+</h3>
+<div class='modal-input-cover'>
+<input placeholder="Email Address *" required="required" class="modal-input" type="email" name="user[email]" id="user_email" />
+</div>
+<div class='modal-input-cover'>
+<input placeholder="Password *" autocomplete="off" required="required" class="modal-input" type="password" name="user[password]" id="user_password" />
+</div>
+<div class='modal-input-cover flex-block'>
+<label class="modal-form-label" for="user_remember_me"><input name="user[remember_me]" type="hidden" value="0" /><input class="modal-checkbox" type="checkbox" value="1" checked="checked" name="user[remember_me]" id="user_remember_me" />
+<span></span>
+Remember me
+</label><div>
+<a class="form-breadcrumb-link" href="/accounts/password/new">Forgot password?</a>
+</div>
+</div>
+<button name="button" type="submit" class="modal-form-button">Login</button>
+<div class='form-breadcrumb form-breadcrumb-cover modal-breadcrumb'>
+Don't have an account?
+<a class="form-breadcrumb-link modal-link" data-modal-open="sign_up_modal" href="/accounts/sign_up">Register</a>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+</div>
+
+    <div class='modal fade in auth-modal' id='sign_up_modal'>
+<div class='modal-content sign_up_m'>
+<img class="modal-flower modal-flower-top" onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/mobile-top-5785d9fc50492ee05a636a4fb8e0b8c51dac1a841e852a5f7969aaf8d9ed7447.png" alt="Mobile top" />
+<img class="modal-flower modal-flower-bottom" onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/mobile-bottom-111505897f8bce32ccd0afd275ea3402dbbbd3b536da633ca53ccdd36948abb5.png" alt="Mobile bottom" />
+<div class='close' data-dismiss='modal'>
+&times;
+</div>
+<div class='modal-container'>
+<h1 class='section-title modal-title'>
+Welcome to GeniusU!
+</h1>
+<p class='section-desk modal-text'>
+You are now one step away from accessing your training. See you inside the world’s #1 entrepreneur platform.
+</p>
+<div class='modal-content-block'>
+<div class='modal-right-side'>
+<h2 class='modal-link-title'>
+Log in with a social account:
+</h2>
+<div class='modal-links-cover'>
+<a class='modal-links facebook' href='/accounts/auth/facebook'>
+<div class='modal-link-image-cover'>
+<img onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/facebook-4931a238a19b99a45a24751088088b386151e52d25be89ccc7d1d4d95f606123.png" alt="Facebook" />
+</div>
+<div class='modal-desktop-links'>
+Facebook
+</div>
+</a>
+<a class='modal-links twitter' href='/accounts/auth/twitter'>
+<div class='modal-link-image-cover'>
+<img onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/twitter-fcdd03c45119f11e3695c55befca4ed613ae84a2ba95c1c2dcdd873e9befbbbc.png" alt="Twitter" />
+</div>
+<div class='modal-desktop-links'>
+Twitter
+</div>
+</a>
+<a class='modal-links google' href='/accounts/auth/google_oauth2'>
+<div class='modal-link-image-cover'>
+<img onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/google-441be5de9b69115cbac2dd78560e60f336ef92eb9d37f2d77f6218d40b1b14b9.png" alt="Google" />
+</div>
+<div class='modal-desktop-links'>
+Google
+</div>
+</a>
+<a class='modal-links linkedin' href='/accounts/auth/linkedin'>
+<div class='modal-link-image-cover'>
+<img onerror="this.onerror=null;this.src=&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAQAAACC0sM2AAAADElEQVR42mNkGCYAAAGSAAIVQ4IOAAAAAElFTkSuQmCC&#39;;" src="https://d27hl5wikuj24b.cloudfront.net/assets/2020/authenticate_modals/linkedin-40890fa2d03ad70692daad1d07be3576ea6bcbed8b1c9d29f9f609d1759762d4.png" alt="Linkedin" />
+</div>
+<div class='modal-desktop-links'>
+LinkedIn
+</div>
+</a>
+</div>
+</div>
+<div class='modal-breadcrumb-space'>
+or
+</div>
+<div class='modal-left-side'>
+<form id="sign-up-form" class="modal-form" data-type="json" data-after-sign-in-path="https://app.geniusu.com/stream" action="/accounts" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ELYPwXFCm7o0cc9Q0yuXvHP3HClITDOjvFdtIDdgVGdcYZDH5VsjdJAi2P7kWFwRAOO7IcPLP5fijfWSYkdK8Q==" /><input type="hidden" name="user[mentor_circle_user_id]" id="user_mentor_circle_user_id" />
+<input type="hidden" name="user[mentor_circle_id]" id="user_mentor_circle_id" />
+<input value="true" type="hidden" name="user[force_confirmation]" id="user_force_confirmation" />
+<h3 class='modal-form-title'>
+Register with an email:
+</h3>
+<div class='modal-input-cover'>
+<input placeholder="First Name *" required="required" class="modal-input" type="text" name="user[first_name]" id="user_first_name" />
+</div>
+<div class='modal-input-cover'>
+<input placeholder="Last Name *" required="required" class="modal-input" type="text" name="user[last_name]" id="user_last_name" />
+</div>
+<div class='modal-input-cover'>
+<input placeholder="Email Address *" required="required" class="modal-input" type="email" name="user[email]" id="user_email" />
+</div>
+<div class='modal-input-cover'>
+<input placeholder="Password *" autocomplete="off" required="required" class="modal-input" type="password" name="user[password]" id="user_password" />
+</div>
+<div class='modal-input-cover'>
+<input placeholder="Confirm Password *" autocomplete="off" required="required" class="modal-input" type="password" name="user[password_confirmation]" id="user_password_confirmation" />
+</div>
+<div class='modal-input-cover'>
+
+<script src="https://www.recaptcha.net/recaptcha/api.js" async defer ></script>
+<div data-sitekey="6LcLy74aAAAAAGticsLft2xjrANPjcnxCRCc1gvj" data-callback="enableBtn" class="g-recaptcha "></div>
+          <noscript>
+            <div>
+              <div style="width: 302px; height: 422px; position: relative;">
+                <div style="width: 302px; height: 422px; position: absolute;">
+                  <iframe
+                    src="https://www.recaptcha.net/recaptcha/api/fallback?k=6LcLy74aAAAAAGticsLft2xjrANPjcnxCRCc1gvj"
+                    name="ReCAPTCHA"
+                    style="width: 302px; height: 422px; border-style: none; border: 0; overflow: hidden;">
+                  </iframe>
+                </div>
+              </div>
+              <div style="width: 300px; height: 60px; border-style: none;
+                bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px;
+                background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+                <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 40px; border: 1px solid #c1c1c1;
+                  margin: 10px 25px; padding: 0px; resize: none;">
+                </textarea>
+              </div>
+            </div>
+          </noscript>
+
+</div>
+<button name="button" type="submit" class="modal-form-button">Register</button>
+<div class='form-breadcrumb form-breadcrumb-cover modal-breadcrumb'>
+Already have an account?
+<a class="form-breadcrumb-link modal-link" data-modal-open="sign_in_modal" href="/accounts/sign_in">Log in</a>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+</div>
+
+    <div class='v3'>
+<div class='modal fade' id='share_modal' role='dialog' tabindex='-1'>
+<div class='modal-dialog' role='document'>
+<div class='modal-content'>
+<div class='modal-header'>
+<button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+<span aria-hidden='true'>×</span>
+</button>
+<h4 class='modal-title'>
+Share
+</h4>
+</div>
+<div class='modal-body'>
+<div class='row'>
+<div class='col-xs-12'>
+<p class='modal-info'>
+Share your progress with friends
+</p>
+<div class='text-center'>
+<div class='margin-top-20'>
+<div class='input-group'>
+<input type="text" name="share_link_text" id="share_link_text" value="https://www.google.com" class="form-control" readonly="readonly" />
+<div class='input-group-btn'>
+<a class='btn btn-reset btn-orange clipboard-btn share-copy-link' data-clipboard-target='#share_link_text' rel='nofollow' title='Copy to clipboard'>
+Copy link
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='margin-top-20'>
+<div class='addthis_toolbox addthis_32x32_style'>
+<div class='at-share-btn-elements'>
+<a class='addthis_button_facebook'></a>
+<a class='addthis_button_twitter'></a>
+<a class='addthis_button_linkedin'></a>
+<a class='addthis_button_mailto'></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='modal-footer'>
+<div class='pull-left'>
+<button class='btn btn-reset btn-default' data-dismiss='modal' type='button'>Close</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    <div class='popup__overlay login__popup__overlay' id='auth-req'>
+<span class='popup__close'></span>
+<div class='popup-auth-req'>
+<span class='popup-close-btn'></span>
+<h4 class='popup-title'>Please Register or Sign In to Continue</h4>
+<p class='popup-text margin-bottom-30'>
+A click of the mouse, a few key taps, and you'll enjoy free, unlimited access to our website.
+</p>
+<a class="main-link-orange-fill" href="/accounts/sign_in">Get Started</a>
+</div>
+</div>
+
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=203333966435396&autoLogAppEvents=1"></script>
+
+    <nav class="navigation">
+  <div class="navigation__left">
+    <a href=/clear>
+        <img class="site-logo" src="https://stylekit.geniusu.com/images/logo.svg">
+    </a>
+      <ul class="list-inline list-unstyled navigation__links">
+        <li class="dropdown dropdown-menu-item">
+          <a href="#">Campuses <i class="fas fa-fw fa-caret-down" ></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="/mentor_circles/1937/welcome">Investor</a></li>
+            <li><a href="/mentor_circles/2025/welcome">Entrepreneur</a></li>
+            <li><a href="/mentor_circles/2026/welcome">University</a></li>
+            <li><a href="/mentor_circles/737/welcome">School</a></li>
+          </ul>
+        </li>
+        <li class="dropdown dropdown-menu-item">
+          <a href="#">Community <i class="fas fa-fw fa-caret-down" ></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="/companies">Companies</a>
+            <li><a href="/mentor_circles">Circles</a></li>
+            <li><a href="/pages/mentors">Mentors</a></li>
+            <li><a href="/users">Students</a></li>
+            <li><a href="/curriculums">Curriculum</a></li>
+            <li><a href="/opportunities">Opportunities</a></li>
+          </ul>
+        </li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/store">Store</a></li>
+        <li><a href="/mentor_circles/1140/welcome">Partnerships</a></li>
+      </ul>
+  </div>
+
+    <div class="navigation__right">
+      <div class="navigation__search search__container d-none" id="navigation_search">
+        <a href="#" class="navigation__search__close">
+          <i class="fal fa-fw fa-times"></i>
+        </a>
+
+        <input type="text" class="form-control search__input navigation__search__input" placeholder="Search" />
+
+        <div class="search__results d-none">
+        </div>
+      </div>
+
+      <a href="#" class="navigation__icon navigation__search_icon">
+        <i class="fal fa-fw fa-search"></i>
+      </a>
+
+    <a href="/store/cart" class="navigation__icon navigation__cart_icon">
+      <i class="fal fa-fw fa-shopping-cart"></i>
+    </a>
+
+      <a class="log_in" href="/accounts/sign_in">Log in</a>
+      <a class="btn--large btn--primary" href="/accounts/sign_up">Join for Free</a>
+  </div>
+</nav>
+
+    <div class="mobile_navigation">
+    <div class="mobile_navigation__icons mobile_navigation__icons--left">
+    <div class="mobile_navigation__search search__container d-none" id="mobile_navigation_search">
+      <a href="#" class="mobile_navigation__search__close">
+        <i class="fal fa-fw fa-times"></i>
+      </a>
+
+      <input type="text" class="form-control search__input mobile_navigation__search__input" id="mobile_navigation__search__input" placeholder="Search" />
+
+      <div class="search__results d-none">
+      </div>
+    </div>
+
+    <div class="mobile_navigation__menu_icon">
+      <a href="#" data-toggle="modal" data-target="#mobile_navigation_dialog">
+        <i class="fal fa-bars"></i>
+      </a>
+    </div>
+
+    <a href="#" class="mobile_navigation__search_icon">
+      <i class="fal fa-search"></i>
+    </a>
+  </div>
+  <a href="/" class="mobile_navigation__logo">
+      <img src="https://stylekit.geniusu.com/images/logo.svg">
+  </a>
+    <div class="mobile_navigation__icons">
+    <a href="/store/cart" class="mobile_navigation__cart">
+      <i class="fal fa-fw fa-shopping-cart"></i>
+    </a>
+
+  </div>
+</div>
+
+    <div class="zindex-mobile-modal modal mobile_navigation__dialog" id="mobile_navigation_dialog" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <a href="#" class="mobile_navigation__dialog__close" data-dismiss="modal">
+      <i class="fal fa-times"></i>
+    </a>
+
+    <div class="margin-top-100 padding-bottom-100">
+        <div class="mobile_navigation__dialog__join">
+          <a href="/accounts/sign_up" class="btn btn--large btn--primary mobile_modal_buttons">
+            Join for free
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="/accounts/sign_in" class="btn--large log_in mobile_modal_buttons">
+            Log in</a>
+        </div>
+
+      <ul class="list-unstyled mobile_navigation__dialog__menu">
+        <li class='mobile-navigation-item'>
+          <a href="/clear">Home</a>
+        </li>
+
+        <li class='mobile-navigation-item'>
+          <a data-toggle="collapse" href="#campuses_collapse_menu" class="mob-nav-col-item">
+            Campuses
+            <span class="caret"></span>
+          </a>
+          <ul class="list-unstyled collapse" id="campuses_collapse_menu">
+            <li><a href="/mentor_circles/1937/welcome">Investor</a></li>
+            <li><a href="/mentor_circles/2025/welcome">Entrepreneur</a></li>
+            <li><a href="/mentor_circles/2026/welcome">University</a></li>
+            <li><a href="/mentor_circles/737/welcome">School</a></li>
+          </ul>
+        </li>
+
+        <li class='mobile-navigation-item'>
+          <a data-toggle="collapse" href="#community_collapse_menu" class="mob-nav-col-item">
+            Community
+            <span class="caret"></span>
+          </a>
+          <ul class="list-unstyled collapse" id="community_collapse_menu">
+            <li><a href="/companies">Companies</a>
+            <li><a href="/mentor_circles">Circles</a></li>
+            <li><a href="/pages/mentors">Mentors</a></li>
+            <li><a href="/users">Students</a></li>
+            <li><a href="/curriculums">Curriculum</a></li>
+            <li><a href="/opportunities">Opportunities</a></li>
+          </ul>
+        </li>
+
+        <li class='mobile-navigation-item'>
+          <a href="/events">Events</a>
+        </li>
+
+        <li class='mobile-navigation-item'>
+          <a href="/store">Store</a>
+        </li>
+
+        <li class='mobile-navigation-item'>
+          <a href="/mentor_circles/1140/welcome">Partnerships</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+    
+
+<div class="single-post-v2">
+  <div class="row row--single-post-hero-section" style="position: relative;">
+    <div class="container">
+      <p class="post-date-time-bookmark">
+        <span class="post-date-time">
+            Jul  5, 2018 at 13:07
+        </span>
+      </p>
+      <h1 class="post-title">
+        How Psychometric tests are helpful in determining a candidate’s role and performance
+      </h1>
+        <p class="post-author">
+          <img class="post-author-pic" src=""/>
+          <span class="post-author-name">
+            <a class="post-author-profile-link" href="/users/843934">Jitender Sharma</a></a>
+          </span>
+          <br>
+            <span class="post-author-location">
+              Gurugram, Haryana, India
+            </span>
+        </p>
+    </div>
+    <div class="articles__buttons_block">
+      <div data-title="How Psychometric tests are helpful in determining a candidate’s role and performance" data-description="What are psychometric tests?Every company goes through a lengthy process to hire their employees. Recruitment process consists of various rounds of interviews, group discussions, tests, and other methods of assessing employee’s overall skills and abilities.One of the methods of testing is psychometric test which is a test measuring your mental ability. It is scientific and standardized way of assessing various aspects of your behavior, mental capacity, and your personality style. These tests come in various forms which can be used to measure a potential employee’s abilities and see whether his/her skills and style match that of the organization. These tests, along with other methods such as interviews help the employers to make a wise decision. The tests are very structured and evaluate many aspects of the candidate’s skills such as intelligence, personality, ability to cope with stress, cognitive aspects, etc. It can be taken online or can be taken in person.Psychometric tests are an old concept existing since the early 20th century but they were restricted to the educational forum. Alfred Binet introduced the first intelligence test in 1905 and ever since, many tests have been introduced, modified and used in various fields and domains. Psychometric tests have become an absolute necessity in the selection process as employers are not just looking at educational qualifications but would like to assess a candidate’s other acquired skills.Why is it used so profusely? Psychometric tests are used because:They are very efficient tools in the recruitment processThey are standardized tools.They are unbiased and objective.They are impersonal.They can cut down the HR costs.They are also good indicators to future job performance.They can help compare candidate’s values and roles to that of the company.They are non-discriminatory.They can be administered before the interview or as an add-on to the interview process. These kinds of tests don’t analyze your psychological stability or emotional intelligence; hence they are very different from clinical tests.  But over the years, some aspects of emotional stability has been introduced to understand coping styles of candidates when it comes to stress, pressure, anger management, etc. A psychometric test should be used only after checking its validity and reliability. It is used almost in every sector ranging from IT, armed force, police forces, and other sectors.Psychometric tests fall under two broad categories: Aptitude tests- These tests measure various skill sets which match the role of the candidate for that particular organization. These include verbal reasoning, logical reasoning, Numerical reasoning, etc. These tests may be multiple choices based, formal and impersonal.Personality tests- Personality is an important construct to determine the role of the candidate in an organization in terms of motivation level, enthusiasm, values, and success at workplace.Psychometric tests are very reliable in determining candidate’s role in the organization and to see if he/she is a suitable fit. It is important to administer these tests in the early stages in order to avoid future conflicts and performance level of the employee." data-image="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3874029/desktop_How_Psychometric_tests_are_helpful_in_determining_a_candidate_s_role_and_performance.jpg" data-url="https://app.geniusu.com/articles/3874029" class="trigger_share main-link-share main-link-green">Share</div>
+    </div>
+  </div>
+<div class="row row__sections row--post-content" id="transparent_navigation_waypoint">
+  <div class="container container--post-content">
+    <div class="article-columns--main col-md-8">
+      <div class="post-content">
+        <center>
+            <div class="single-post-v2">
+              <img class="post-featured-img" src="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3874029/How_Psychometric_tests_are_helpful_in_determining_a_candidate_s_role_and_performance.jpg" />
+            </div>
+        </center>
+        <div class="post-text">
+          <p style="text-align: justify;"><strong>What are psychometric tests?</strong></p><p style="text-align: justify;"><br></p><p style="text-align: justify;">Every company goes through a lengthy process to hire their employees. Recruitment process consists of various rounds of interviews, group discussions, tests, and other methods of assessing employee&rsquo;s overall skills and abilities.</p><p style="text-align: justify;"><br></p><p style="text-align: justify;">One of the methods of testing is <a href="https://mettl.com/en/psychometric-tests/"><strong>psychometric test</strong></a> which is a test measuring your mental ability. It is scientific and standardized way of assessing various aspects of your behavior, mental capacity, and your personality style. These tests come in various forms which can be used to measure a potential employee&rsquo;s abilities and see whether his/her skills and style match that of the organization. These tests, along with other methods such as interviews help the employers to make a wise decision.</p><p style="text-align: justify;"><br></p><p style="text-align: justify;">&nbsp;The tests are very structured and evaluate many aspects of the candidate&rsquo;s skills such as intelligence, personality, ability to cope with stress, cognitive aspects, etc. It can be taken online or can be taken in person.</p><p style="text-align: justify;"><br></p><p style="text-align: justify;">Psychometric tests are an old concept existing since the early 20<sup>th</sup> century but they were restricted to the educational forum. Alfred Binet introduced the first intelligence test in 1905 and ever since, many tests have been introduced, modified and used in various fields and domains. Psychometric tests have become an absolute necessity in the selection process as employers are not just looking at educational qualifications but would like to assess a candidate&rsquo;s other acquired skills.</p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><strong>Why is it used so profusely?&nbsp;</strong></p><p style="text-align: justify;"><br></p><p style="text-align: justify;">Psychometric tests are used because:</p><p style="text-align: justify;"><br></p><ul><li style="text-align: justify;">They are very efficient tools in the recruitment process</li><li style="text-align: justify;">They are standardized tools.</li><li style="text-align: justify;">They are unbiased and objective.</li><li style="text-align: justify;">They are impersonal.</li><li style="text-align: justify;">They can cut down the HR costs.</li><li style="text-align: justify;">They are also good indicators to future job performance.</li><li style="text-align: justify;">They can help compare candidate&rsquo;s values and roles to that of the company.</li><li style="text-align: justify;">They are non-discriminatory.</li><li style="text-align: justify;"><br></li></ul><p style="text-align: justify;">They can be administered before the interview or as an add-on to the interview process. These kinds of tests don&rsquo;t analyze your psychological stability or emotional intelligence; hence they are very different from clinical tests. &nbsp;But over the years, some aspects of emotional stability has been introduced to understand coping styles of candidates when it comes to stress, pressure, anger management, etc. A psychometric test should be used only after checking its validity and reliability. It is used almost in every sector ranging from IT, armed force, police forces, and other sectors.</p><p style="text-align: justify;"><br></p><p style="text-align: justify;"><strong>Psychometric tests fall under two broad categories:&nbsp;</strong></p><p style="text-align: justify;"><br></p><ul><li style="text-align: justify;">Aptitude tests- These tests measure various skill sets which match the role of the candidate for that particular organization. These include verbal reasoning, logical reasoning, Numerical reasoning, etc. These tests may be multiple choices based, formal and impersonal.</li><li style="text-align: justify;">Personality tests- Personality is an important construct to determine the role of the candidate in an organization in terms of motivation level, enthusiasm, values, and success at workplace.</li><li style="text-align: justify;"><br></li></ul><p style="text-align: justify;">Psychometric tests are very reliable in determining candidate&rsquo;s role in the organization and to see if he/she is a suitable fit. It is important to administer these tests in the early stages in order to avoid future conflicts and performance level of the employee.</p>
+
+        </div>
+        <div class="fb-comments-container">
+          <h3 class="post-content__subhead">Leave a Reply</h3>
+          <div class="fb-comments" data-order-by="reverse_time" data-colorscheme="light" data-numposts="5" data-href="https://app.geniusu.com/articles/3874029"></div>
+        </div>
+      </div>
+    </div>
+    <div class="article-columns--sidebar col-md-4">
+      <div class="row__columns sidebar__contents">
+        <div class="search-form">
+          <form class="article_search" id="article_search" action="/articles" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <div class="input-group">
+              <input placeholder="Search for any post..." class="form-control search-form__input" type="text" name="q[title_or_description_cont]" id="q_title_or_description_cont" />
+              <span class="input-group-btn">
+                <button class="btn btn--search btn-default" type="button"><i class="btn__search__icon fas fa-search"></i></button>
+              </span>
+            </div>
+</form>        </div>
+      </div>
+      <div class="row__columns sidebar__contents">
+        <div class="sidebar__contents--item1">
+          <h3 class="sidebar__contents__heading">Have Something to Share?</h3>
+          <p class="sidebar__contents__text">Publish your post on the GeniusU platform and share it with the community</p>
+          <a class="sidebar__contents__link btn btn--orange" href="/articles/new">Add Article</a>
+        </div>
+      </div>
+      <div class="row__columns sidebar__contents">
+        <h3 class="sidebar__contents__heading sidebar__contents__heading--blue">Latest articles</h3>
+        <ul class="articles__list">
+            <li class="articles__list__items">
+              <div class="col-md-4 col-sm-2">
+                <img class="articles__list__items__img" src="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3883722/desktop_GeniusU_Video_Post_GFX_-_Article_23_-_PNG.jpg" />
+              </div>
+              <div class="col-md-8 col-sm-10">
+                <p class="articles__list__items__title">
+                  <a href="/articles/3883722">Budget Announcement Important Changes – SSAS Pensions UK</a>
+                </p>
+                  <p class="articles__list__items__authors">
+                    Simon Zutshi
+                  </p>
+              </div>
+            </li>
+            <li class="articles__list__items">
+              <div class="col-md-4 col-sm-2">
+                <img class="articles__list__items__img" src="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3883721/desktop_WD_Internal_Blogs__Horizontal___3_.png" />
+              </div>
+              <div class="col-md-8 col-sm-10">
+                <p class="articles__list__items__title">
+                  <a href="/articles/3883721">Top 5 Strengths And Weaknesses Every Entrepreneur Must Possess.</a>
+                </p>
+                  <p class="articles__list__items__authors">
+                    GeniusU Genie
+                  </p>
+              </div>
+            </li>
+            <li class="articles__list__items">
+              <div class="col-md-4 col-sm-2">
+                <img class="articles__list__items__img" src="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3883720/desktop_image__4_.png" />
+              </div>
+              <div class="col-md-8 col-sm-10">
+                <p class="articles__list__items__title">
+                  <a href="/articles/3883720">The Return Of Jack Ma: Signaling A Shift In China’s Tech Industry And How Wealth Dynamics Can Empower Tech Entrepreneurs.</a>
+                </p>
+                  <p class="articles__list__items__authors">
+                    GeniusU Genie
+                  </p>
+              </div>
+            </li>
+            <li class="articles__list__items">
+              <div class="col-md-4 col-sm-2">
+                <img class="articles__list__items__img" src="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3883719/desktop_BLOG_3__1_.png" />
+              </div>
+              <div class="col-md-8 col-sm-10">
+                <p class="articles__list__items__title">
+                  <a href="/articles/3883719">Navigating the Social Media Maze: Tips and Tricks for Maximizing Your Online Presence.</a>
+                </p>
+                  <p class="articles__list__items__authors">
+                    GeniusU Genie
+                  </p>
+              </div>
+            </li>
+            <li class="articles__list__items">
+              <div class="col-md-4 col-sm-2">
+                <img class="articles__list__items__img" src="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3883717/desktop_maxresdefault.jpeg" />
+              </div>
+              <div class="col-md-8 col-sm-10">
+                <p class="articles__list__items__title">
+                  <a href="/articles/3883717">Wealth is a mindset</a>
+                </p>
+                  <p class="articles__list__items__authors">
+                    Kyron Gosse
+                  </p>
+              </div>
+            </li>
+            <li class="articles__list__items">
+              <div class="col-md-4 col-sm-2">
+                <img class="articles__list__items__img" src="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3883716/desktop_GU__2_.png" />
+              </div>
+              <div class="col-md-8 col-sm-10">
+                <p class="articles__list__items__title">
+                  <a href="/articles/3883716">The Immigrant Dream: How Andrew Carnegie Built a Fortune from Humble Beginnings.</a>
+                </p>
+                  <p class="articles__list__items__authors">
+                    GeniusU Genie
+                  </p>
+              </div>
+            </li>
+            <li class="articles__list__items">
+              <div class="col-md-4 col-sm-2">
+                <img class="articles__list__items__img" src="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3883715/desktop_TD___1_.png" />
+              </div>
+              <div class="col-md-8 col-sm-10">
+                <p class="articles__list__items__title">
+                  <a href="/articles/3883715">From Farm to Table: The Story of Chef Dan Barber and His Revolutionary Approach to Sustainable Agriculture.</a>
+                </p>
+                  <p class="articles__list__items__authors">
+                    GeniusU Genie
+                  </p>
+              </div>
+            </li>
+            <li class="articles__list__items">
+              <div class="col-md-4 col-sm-2">
+                <img class="articles__list__items__img" src="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3883714/desktop_MBA_program__1_.png" />
+              </div>
+              <div class="col-md-8 col-sm-10">
+                <p class="articles__list__items__title">
+                  <a href="/articles/3883714">Unlock New Opportunities with our flexible and convenient Online MBA!</a>
+                </p>
+                  <p class="articles__list__items__authors">
+                    GeniusU Genie
+                  </p>
+              </div>
+            </li>
+            <li class="articles__list__items">
+              <div class="col-md-4 col-sm-2">
+                <img class="articles__list__items__img" src="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3883713/desktop_EI___1_.png" />
+              </div>
+              <div class="col-md-8 col-sm-10">
+                <p class="articles__list__items__title">
+                  <a href="/articles/3883713">Breaking Barriers: The First African American Female Billionaire, Janice Bryant Howroyd.</a>
+                </p>
+                  <p class="articles__list__items__authors">
+                    GeniusU Genie
+                  </p>
+              </div>
+            </li>
+            <li class="articles__list__items">
+              <div class="col-md-4 col-sm-2">
+                <img class="articles__list__items__img" src="https://genius-u-attachments.s3.amazonaws.com/uploads/article/image/3883680/desktop_1680098345812.jpeg" />
+              </div>
+              <div class="col-md-8 col-sm-10">
+                <p class="articles__list__items__title">
+                  <a href="/articles/3883680">FIVE WAYS TO BOOST PRODUCTIVITY IN THE WORKPLACE</a>
+                </p>
+                  <p class="articles__list__items__authors">
+                    GeniusU Genie
+                  </p>
+              </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        <footer class="footer">
+    <div class="footer__columns">
+      <div class="footer__column">
+        <a href="https://www.geniusu.com/">
+            <img src="https://stylekit.geniusu.com/images/logo.svg">
+        </a>
+
+        <div class="footer__genius_group">
+          GeniusU Limited (GeniusU) is part of Genius Group Ltd.</br>
+          Read more about the Genius Group of Companies <a href="https://www.geniusgroup.net">here</a>.
+        </div>
+      </div>
+
+        <div class="footer__column">
+          <p>We are in social networks:</p>
+
+          <ul class="list-unstyled list-inline footer__social">
+            <li>
+              <a target="_blank" href="https://www.facebook.com/geniusuofficial/">
+                <img src="https://stylekit.geniusu.com/images/facebook.svg" alt="Facebook">
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="https://twitter.com/geniususocial/">
+                <img src="https://stylekit.geniusu.com/images/twitter.svg" alt="Twitter">
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="https://www.instagram.com/geniususocial/">
+                <img src="https://stylekit.geniusu.com/images/instagram.svg" alt="Instagram">
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="https://www.youtube.com/channel/UC3X23SkhyCQlv7H3dx16WEA/featured">
+                <img src="https://stylekit.geniusu.com/images/youtube.svg" alt="YouTube">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      <div class="footer__column">
+        <div class="footer__contact">
+          <p>You can always contact us:</p>
+          <div class="footer__email">
+            <i class="fal fa-fw fa-envelope"></i>
+            <a href="mailto:support@geniusu.com">support@geniusu.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__copyright">
+    Copyright © 2023 Genius Group.
+    <a href="/articles">Blog</a> / <a href="/privacy">Privacy Policy</a> / <a href="/terms">Terms</a>
+  </div>
+</footer>
+
+
+
+
+
+    <script src="https://geniusu-influex-staging.s3-eu-west-1.amazonaws.com/js/parallax.min.js"></script>
+    <script src="https://geniusu-influex-staging.s3-eu-west-1.amazonaws.com/js/odometer.min.js"></script>
+    <script src="https://geniusu-influex-staging.s3-eu-west-1.amazonaws.com/js/jquery.inview.js"></script>
+    <a class="scroll_up" href="#" id="scrollUpTop">
+      <i class="fal fa-angle-up"></i>
+    </a>
+    <script>
+      jQuery(window).scroll(function() {
+        var y = $(this).scrollTop();
+        if (y > 800) {
+          $('.scroll_up').fadeIn();
+        } else {
+          $('.scroll_up').fadeOut();
+        }
+      });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 1000, function(){
+              window.location.hash = hash;
+            });
+          }
+        });
+      });
+    </script>
+
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-560a6fc0104c95b7"></script>
+    <script src="https://d27hl5wikuj24b.cloudfront.net/assets/influex/custom-8074af2d6159ec5db867825e2259758258415970b14388cf44065979c77e9008.js"></script>
+    <script src="https://stylekit.geniusu.com//javascripts/search.js"></script>
+    <script src="https://stylekit.geniusu.com//javascripts/application.js"></script>
+    <script src="https://stylekit.geniusu.com//javascripts/index.js"></script>
+      <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '179193282683816');
+fbq('init', '552505748204237');
+fbq('init', '418186461967871');
+fbq('init', '262417677840884');
+fbq('init', '1179421472248883');
+fbq('track', 'PageView');
+
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=179193282683816&ev=PageView&noscript=1" />
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=552505748204237&ev=PageView&noscript=1" />
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=418186461967871&ev=PageView&noscript=1" />
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=262417677840884&ev=PageView&noscript=1" />
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1179421472248883&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<script type="text/javascript">
+  _linkedin_data_partner_id = "108856";
+  </script><script type="text/javascript">
+  (function(){var s = document.getElementsByTagName("script")[0];
+  var b = document.createElement("script");
+  b.type = "text/javascript";b.async = true;
+  b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+  s.parentNode.insertBefore(b, s);})();
+  </script>
+  <noscript>
+  <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=108856&fmt=gif" />
+</noscript>
+<script type="text/javascript">
+  window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+  d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+  _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+  $.src="https://v2.zopim.com/?2LJVYNO5gAZCRfRE00ntu3ffkCULclBP";z.t=+new Date;$.
+  type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<script>
+  var checkZopimExist = setInterval(function() {
+    if ($('.zopim').length) {
+      $(".zopim").addClass("zopim_container")
+    }
+  }, 50)
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-5220882-1', 'auto', { name: 'resultsFoundation' });
+  ga('create', 'UA-5220882-34', 'auto', { name: 'geniusU' });
+  ga('resultsFoundation.send', 'pageview');
+  ga('geniusU.send', 'pageview');
+</script>
+<script>
+  (function(h,o,t,j,a,r){
+    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+    h._hjSettings={hjid:195371,hjsv:5};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+  })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<script type="text/javascript">
+  /* <![CDATA[ */
+    var google_conversion_id = 981211400;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+  <div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/981211400/?guid=ON&amp;script=0"/>
+  </div>
+</noscript>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3LNXD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+      <script src="https://www.geniusu.com/js/cookie-consent.js"></script>
+  </body>
+</html>
